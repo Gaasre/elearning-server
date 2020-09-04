@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "5cf0626bbcc0b0370c1f103f"
+  },
+  "email": "test@test.com",
+  "age": 43,
+  "name": "testazaze",
+  "password": "test",
+  "courses": [
+    {
+      "progression": [
+        1
+      ],
+      "_id": {
+        "$oid": "5d4eb237fc8b1a23a8bacd86"
+      },
+      "course": {
+        "$oid": "5d4eb1cefc8b1a23a8bacd83"
+      }
+    },
+    {
+      "progression": [],
+      "_id": {
+        "$oid": "5ec4b2b0a441750578b44129"
+      },
+      "course": {
+        "$oid": "5d0b3bb5ae513704a8b461d4"
+      }
+    },
+    {
+      "progression": [],
+      "_id": {
+        "$oid": "5ec4b3c2a441750578b4412a"
+      },
+      "course": {
+        "$oid": "5cf592f24c745a5280ad511d"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5cf0627cbcc0b0370c1f1040"
+  },
+  "email": "test2@gmail.com",
+  "age": 32,
+  "name": "test",
+  "password": "test",
+  "courses": []
+},{
+  "_id": {
+    "$oid": "5cf06290bcc0b0370c1f1041"
+  },
+  "email": "john@gmail.com",
+  "age": 32,
+  "name": "John",
+  "password": "test",
+  "courses": [
+    {
+      "progression": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "_id": {
+        "$oid": "5cf5e0131943f049d8b06f97"
+      },
+      "course": {
+        "$oid": "5cf592f24c745a5280ad511d"
+      }
+    },
+    {
+      "progression": [],
+      "_id": {
+        "$oid": "5d0a87db3bca5b0c78f4ff9b"
+      },
+      "course": {
+        "$oid": "5d0a87353bca5b0c78f4ff96"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5cf0b17c32ab30589c525c56"
+  },
+  "email": "aeamine.barchid@gmail.com",
+  "age": 32,
+  "name": "Testg",
+  "password": "test",
+  "courses": []
+},{
+  "_id": {
+    "$oid": "5cf0b1a332ab30589c525c57"
+  },
+  "email": "dfamine.barchid@gmail.com",
+  "age": 23,
+  "name": "ghbjnk",
+  "password": "test",
+  "courses": []
+},{
+  "_id": {
+    "$oid": "5cf0b1ee607cc851482ba564"
+  },
+  "email": "zeamine.barchid@gmail.com",
+  "age": 3,
+  "name": "ghjkj",
+  "password": "test",
+  "courses": []
+}]

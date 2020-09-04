@@ -1,0 +1,283 @@
+[{
+  "_id": {
+    "$oid": "5cf592f24c745a5280ad511d"
+  },
+  "short_desc": "Description courte du cours",
+  "requirements": [
+    "prerequis 1"
+  ],
+  "description": "Description longue du cours",
+  "enrolled": 0,
+  "statut": true,
+  "name": "Cours de test",
+  "author": {
+    "$oid": "5cf06290bcc0b0370c1f1041"
+  },
+  "content": [
+    {
+      "name": "Titre de rubrique",
+      "_id": {
+        "$oid": "5cf593074c745a5280ad511e"
+      },
+      "elements": [
+        {
+          "name": "Session de test",
+          "_id": {
+            "$oid": "5cf593134c745a5280ad511f"
+          },
+          "duration": "",
+          "video": "",
+          "documents": [
+            {
+              "_id": {
+                "$oid": "5d03e99f1c96923d2c1c0849"
+              },
+              "name": "5d03e99f1c96923d2c1c0848.jpg"
+            },
+            {
+              "_id": {
+                "$oid": "5d03e9a31c96923d2c1c084b"
+              },
+              "name": "5d03e9a31c96923d2c1c084a.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Session 3",
+          "_id": {
+            "$oid": "5d03f2241c96923d2c1c084c"
+          },
+          "duration": "",
+          "video": "",
+          "documents": []
+        },
+        {
+          "name": "Session2",
+          "_id": {
+            "$oid": "5d03f2421c96923d2c1c084d"
+          },
+          "duration": "",
+          "video": "",
+          "documents": []
+        },
+        {
+          "name": "Seosdif",
+          "_id": {
+            "$oid": "5d03f7d91c96923d2c1c084e"
+          },
+          "duration": "",
+          "video": "",
+          "documents": []
+        },
+        {
+          "name": "Sedr",
+          "_id": {
+            "$oid": "5d03f80b1c96923d2c1c084f"
+          },
+          "duration": "",
+          "video": "",
+          "documents": []
+        },
+        {
+          "name": "Sedr",
+          "_id": {
+            "$oid": "5d03f8693f55de25c8b28497"
+          },
+          "duration": "",
+          "video": "",
+          "documents": [
+            {
+              "_id": {
+                "$oid": "5d03f86e3f55de25c8b28499"
+              },
+              "name": "5d03f86e3f55de25c8b28498.jpg"
+            },
+            {
+              "_id": {
+                "$oid": "5d03f8753f55de25c8b2849b"
+              },
+              "name": "5d03f8753f55de25c8b2849a.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "currency": "EUR",
+  "price": "10,99",
+  "questionnaire": []
+},{
+  "_id": {
+    "$oid": "5d0a87353bca5b0c78f4ff96"
+  },
+  "short_desc": "",
+  "requirements": [],
+  "description": "",
+  "enrolled": 0,
+  "statut": true,
+  "name": "gjdsfgs",
+  "author": {
+    "$oid": "5cf06290bcc0b0370c1f1041"
+  },
+  "content": [
+    {
+      "name": "rubrique 1",
+      "_id": {
+        "$oid": "5d0a87533bca5b0c78f4ff97"
+      },
+      "elements": [
+        {
+          "name": "session1",
+          "_id": {
+            "$oid": "5d0a875c3bca5b0c78f4ff98"
+          },
+          "duration": "",
+          "video": "session1.mp4",
+          "documents": [
+            {
+              "_id": {
+                "$oid": "5d0a87753bca5b0c78f4ff9a"
+              },
+              "name": "5d0a87753bca5b0c78f4ff99.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questionnaire": [],
+  "currency": "USD",
+  "price": "30,99"
+},{
+  "_id": {
+    "$oid": "5d0b3bb5ae513704a8b461d4"
+  },
+  "short_desc": "Become an In-demand SQL Master by creating complex databases and building reports through real-world projects",
+  "requirements": [
+    "ghjklllkl"
+  ],
+  "description": "ghjklll",
+  "enrolled": 0,
+  "statut": true,
+  "name": "kl:jhuh",
+  "author": {
+    "$oid": "5cf06290bcc0b0370c1f1041"
+  },
+  "content": [
+    {
+      "name": "ghukklll",
+      "_id": {
+        "$oid": "5d0b3c29ae513704a8b461d5"
+      },
+      "elements": [
+        {
+          "name": "session1",
+          "_id": {
+            "$oid": "5d0b3c3eae513704a8b461d6"
+          },
+          "duration": "",
+          "video": "",
+          "documents": []
+        }
+      ]
+    }
+  ],
+  "questionnaire": [],
+  "currency": "USD",
+  "price": "30,99"
+},{
+  "_id": {
+    "$oid": "5d0b4cccae513704a8b461d7"
+  },
+  "short_desc": "Become an In-demand SQL Master by creating complex databases and building reports through real-world projects",
+  "requirements": [
+    "prereauis1"
+  ],
+  "description": "descriptio, ",
+  "enrolled": 0,
+  "statut": true,
+  "name": "titre",
+  "author": {
+    "$oid": "5cf06290bcc0b0370c1f1041"
+  },
+  "content": [
+    {
+      "name": "rubrique",
+      "_id": {
+        "$oid": "5d0b4d25ae513704a8b461d8"
+      },
+      "elements": [
+        {
+          "name": "session1",
+          "_id": {
+            "$oid": "5d0b4d59ae513704a8b461d9"
+          },
+          "duration": "",
+          "video": "",
+          "documents": []
+        }
+      ]
+    }
+  ],
+  "questionnaire": [],
+  "currency": "DH",
+  "price": "Gratuit"
+},{
+  "_id": {
+    "$oid": "5d4eb1cefc8b1a23a8bacd83"
+  },
+  "short_desc": "tjhfjsfsdkfj",
+  "requirements": [],
+  "description": "",
+  "enrolled": 0,
+  "statut": true,
+  "name": "Cours test",
+  "author": {
+    "$oid": "5cf0626bbcc0b0370c1f103f"
+  },
+  "content": [
+    {
+      "name": "Rubrique de test",
+      "_id": {
+        "$oid": "5d4eb1e3fc8b1a23a8bacd84"
+      },
+      "elements": [
+        {
+          "name": "Session 1",
+          "_id": {
+            "$oid": "5d4eb1eefc8b1a23a8bacd85"
+          },
+          "duration": "",
+          "video": "Session 1.mp4",
+          "documents": [
+            {
+              "_id": {
+                "$oid": "5ec4b1f7a441750578b44125"
+              },
+              "name": "5ec4b1f7a441750578b44124.png"
+            }
+          ]
+        },
+        {
+          "name": "session de test",
+          "_id": {
+            "$oid": "5ec4b211a441750578b44126"
+          },
+          "duration": "",
+          "video": "session de test.mp4",
+          "documents": [
+            {
+              "_id": {
+                "$oid": "5ec4b237a441750578b44128"
+              },
+              "name": "5ec4b237a441750578b44127.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questionnaire": [],
+  "currency": "USD",
+  "price": "30,99"
+}]

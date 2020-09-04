@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "5cf592f2afa27ef2fe5b1073"
+  },
+  "name": "Marketing",
+  "courses": [
+    {
+      "$oid": "5cf592f24c745a5280ad511d"
+    },
+    {
+      "$oid": "5d4eb1cefc8b1a23a8bacd83"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5d0a87358d76aba9f4ed0fcc"
+  },
+  "name": "Design",
+  "courses": [
+    {
+      "$oid": "5d0a87353bca5b0c78f4ff96"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5d0b3bb58d76aba9f4ed1042"
+  },
+  "name": "Business",
+  "courses": [
+    {
+      "$oid": "5d0b3bb5ae513704a8b461d4"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5d0b4ccc8d76aba9f4ed1178"
+  },
+  "name": "Développement",
+  "courses": [
+    {
+      "$oid": "5d0b4cccae513704a8b461d7"
+    }
+  ]
+}]
