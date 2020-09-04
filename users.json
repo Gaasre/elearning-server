@@ -6,37 +6,7 @@
   "age": 43,
   "name": "testazaze",
   "password": "test",
-  "courses": [
-    {
-      "progression": [
-        1
-      ],
-      "_id": {
-        "$oid": "5d4eb237fc8b1a23a8bacd86"
-      },
-      "course": {
-        "$oid": "5d4eb1cefc8b1a23a8bacd83"
-      }
-    },
-    {
-      "progression": [],
-      "_id": {
-        "$oid": "5ec4b2b0a441750578b44129"
-      },
-      "course": {
-        "$oid": "5d0b3bb5ae513704a8b461d4"
-      }
-    },
-    {
-      "progression": [],
-      "_id": {
-        "$oid": "5ec4b3c2a441750578b4412a"
-      },
-      "course": {
-        "$oid": "5cf592f24c745a5280ad511d"
-      }
-    }
-  ]
+  "courses": []
 },{
   "_id": {
     "$oid": "5cf0627cbcc0b0370c1f1040"
@@ -54,33 +24,7 @@
   "age": 32,
   "name": "John",
   "password": "test",
-  "courses": [
-    {
-      "progression": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "_id": {
-        "$oid": "5cf5e0131943f049d8b06f97"
-      },
-      "course": {
-        "$oid": "5cf592f24c745a5280ad511d"
-      }
-    },
-    {
-      "progression": [],
-      "_id": {
-        "$oid": "5d0a87db3bca5b0c78f4ff9b"
-      },
-      "course": {
-        "$oid": "5d0a87353bca5b0c78f4ff96"
-      }
-    }
-  ]
+  "courses": []
 },{
   "_id": {
     "$oid": "5cf0b17c32ab30589c525c56"

@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const path = require('path');
 const app = express();
 const ProtectedRoutes = express.Router();
 const routes = require('./routes');
@@ -31,30 +32,26 @@ app.use(function (req, res, next) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-// Static files
-app.use(express.static(__dirname + '/public'));
-app.use(express.static(__dirname + '/public/favicon.ico'));
-
-app.use(express.static(__dirname + '/memer'));
-app.use(express.static(__dirname + '/memer/favicon.ico'));
-
 ProtectedRoutes.use(require('./middlewares/token.middleware'))
-app.use('/api', ProtectedRoutes);
+app.use('/elearning/api', ProtectedRoutes);
 ProtectedRoutes.use(routes);
-app.use('/login', login);
-app.use('/signup', signup);
-app.use('/categories', require('./routes/categories.route'));
-app.get('/courses/', require('./controllers/course.controller').getAll);
-app.get('/courses/:id', require('./controllers/course.controller').getOne);
-app.post('/test/:course', require('./controllers/course.controller').addQuestion);
-app.put('/test/:course/question/:question', require('./controllers/course.controller').updateQuestion);
-app.delete('/test/:course/question/:question', require('./controllers/course.controller').deleteQuestion);
+app.use('/elearning/login', login);
+app.use('/elearning/signup', signup);
+app.use('/elearning/categories', require('./routes/categories.route'));
+app.get('/elearning/courses/', require('./controllers/course.controller').getAll);
+app.get('/elearning/courses/:id', require('./controllers/course.controller').getOne);
+app.post('/elearning/test/:course', require('./controllers/course.controller').addQuestion);
+app.put('/elearning/test/:course/question/:question', require('./controllers/course.controller').updateQuestion);
+app.delete('/elearning/test/:course/question/:question', require('./controllers/course.controller').deleteQuestion);
 
-app.use('/assets', express.static(__dirname + '/public/assets'));
-app.use('/memer', express.static(__dirname + '/memer'));
-app.use('*', express.static(__dirname + '/public'));
+// Serve only the static files form the dist directory
+app.use("/", express.static(__dirname + "/public"));
+// Home page route.
+app.get("/*", function (req, res) {
+  res.sendFile(path.join(__dirname + "/public/index.html"));
+});
 
-let port = 1234;
+let port = 8082;
 app.listen(port, () => {
     console.log('Server is up and running on port ' + port);
 });
