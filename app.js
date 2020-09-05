@@ -45,9 +45,9 @@ app.put('/elearning/test/:course/question/:question', require('./controllers/cou
 app.delete('/elearning/test/:course/question/:question', require('./controllers/course.controller').deleteQuestion);
 
 // Serve only the static files form the dist directory
-app.use("/", express.static(__dirname + "/public"));
+app.use("/elearning/", express.static(__dirname + "/public"));
 // Home page route.
-app.get("/*", function (req, res) {
+app.get("/elearning/*", function (req, res) {
   res.sendFile(path.join(__dirname + "/public/index.html"));
 });
 
