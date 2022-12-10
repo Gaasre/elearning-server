@@ -12,7 +12,7 @@
     "@nguniversal/express-engine": "^7.1.1",
     "body-parser": "^1.18.3",
     "connect-multiparty": "^2.2.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "jsonwebtoken": "^8.5.0",
     "mongoose": "^5.4.19",
     "multiparty": "^4.2.1"
